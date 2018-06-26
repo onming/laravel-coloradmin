@@ -50,7 +50,7 @@ php artisan db:seed
 ```
 
 # DEMO
-http://laravel-coloradmin.onming.cn/admin
-<br />账号admin@onming.cn
-<br />密码admin
+后台访问地址：http://laravel-coloradmin.onming.cn/admin
+<br />账号：admin@onming.cn
+<br />密码：admin
 
