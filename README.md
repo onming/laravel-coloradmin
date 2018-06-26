@@ -9,8 +9,14 @@ git clone https://github.com/onming/laravel-coloradmin.git
 
 > composer安装依赖库
 ```
-cd /laravel-coloradmin
+cd laravel-coloradmin
 composer install
+```
+
+> 设置目录权限Windows请忽略
+```
+chown -R www:www laravel-coloradmin
+chmod -R 775 laravel-coloradmin
 ```
 
 > 使用artisan创建新的应用密钥
@@ -44,5 +50,7 @@ php artisan db:seed
 ```
 
 # DEMO
-(http://laravel-coloradmin.onming.cn/admin)
+http://laravel-coloradmin.onming.cn/admin
+<br />账号admin@onming.cn
+<br />密码admin
 
